@@ -5,3 +5,4 @@
 * 圖片的 folat，有 inline-start/inline-end
 * 圖片在容器中的置中
 * 圖片對齊行行為的重設
+* [線上展示頁](https://idben.github.io/img_resizable_01/)
