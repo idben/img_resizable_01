@@ -1,0 +1,66 @@
+#editor {
+  border: 1px solid #ccc;
+  min-height: 200px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.resize-handle {
+  width: 10px;
+  height: 10px;
+  background: #007bff;
+  position: absolute;
+  border-radius: 50%;
+  cursor: nwse-resize;
+
+  .top-left {
+    top: -5px;
+    left: -5px;
+    cursor: nwse-resize;
+  }
+
+  .top-right {
+    top: -5px;
+    right: -5px;
+    cursor: nesw-resize;
+  }
+
+  .bottom-left {
+    bottom: -5px;
+    left: -5px;
+    cursor: nesw-resize;
+  }
+
+  .bottom-right {
+    bottom: -5px;
+    right: -5px;
+    cursor: nwse-resize;
+  }
+}
+
+
+
+.toolbar {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  gap: 5px;
+}
+
+.toolbar button {
+  background: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.toolbar button:hover {
+  background: #ddd;
+}
